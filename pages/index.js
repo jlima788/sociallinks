@@ -13,7 +13,7 @@ const Index = ({data}) => {
             <title>{data.pagetitle}</title>
         </Head>
         <div className="mx-auto w-1/2 text-center">
-            <h1 className="font-bold text-4xl p-8">{data.title}</h1>
+            <h1 className="font-bold text-4xl p-8">{data.titulo}</h1>
             <img className="mx-auto rounded-full shadow-2xl w-1/4" src={data.logo.url} />
                 {data.body.map((item) => {
                     if(item.slice_type === 'secao'){
@@ -34,7 +34,7 @@ const Index = ({data}) => {
                     return null;
                 })}
                 <div className="text-center py-4">
-                    Projeto criado durante o evento Dev10k do <a href="https://devpleno.com">DevPleno</a><br />Código fonte disponível em: <a href="https://github.com/jlima788/sociallinks">https://github.com/jlima788/sociallinks</a>
+                    Projeto criado durante o evento Dev10k do <a href="https://devpleno.com">DevPleno</a><br />Código fonte disponível em: <a href="https://github.com/jlima788/sociallinks" target="_blank">https://github.com/jlima788/sociallinks</a>
                 </div>
         </div>
     </div>
