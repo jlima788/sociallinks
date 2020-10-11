@@ -34,7 +34,7 @@ const Index = ({data}) => {
                     return null;
                 })}
                 <div className="text-center py-4">
-                    Projeto criado durante o evento Dev10k do <a href="https://devpleno.com">DevPleno</a><br />Código fonte disponível em: ...
+                    Projeto criado durante o evento Dev10k do <a href="https://devpleno.com">DevPleno</a><br />Código fonte disponível em: <a href="https://github.com/jlima788/sociallinks">https://github.com/jlima788/sociallinks</a>
                 </div>
         </div>
     </div>
